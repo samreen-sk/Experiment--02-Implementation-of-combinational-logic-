@@ -10,12 +10,12 @@ To implement the given logic function verify its operation in Quartus using Veri
 F2=xy’z+x’y’z+w’xy+wx’y+wxy
  
  
- 
 ## Equipments Required:
 ## Hardware – PCs, Cyclone II , USB flasher
 ## Software – Quartus prime
 
 
+ 
 ## Theory
  A combinational circuit is a circuit in which the output depends on the present combination of inputs. Combinational circuits are made up of logic gates. The output of each logic gate is determined by its logic function. Combinational circuits can be made using various logic gates, such as AND gates, OR gates, and NOT gates.
 ## Procedure
@@ -31,7 +31,7 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 6.Verification: Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF". Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All. Give the Input Combinations according to the Truth Table amd then simulate the Output waveform
 ## Program:
-
+```
 module exp2de(A,B,C,D,F1);
 input A,B,C,D;
 output F1;
@@ -43,7 +43,7 @@ assign x4=(~A)&(B)&(C)&(D);
 assign x5=(B)&(~C)&(D);
 assign F1=x1|x2|x3|x4|x5;
 endmodule
-
+```
 ## RTL realization
 ![285508978-117e5d3b-33bb-4f4b-b712-1f1b7d0e0a64](https://github.com/samreen-sk/Experiment--02-Implementation-of-combinational-logic-/assets/149347632/a79759f2-540c-4af1-a4a7-5516da83611e)
 
