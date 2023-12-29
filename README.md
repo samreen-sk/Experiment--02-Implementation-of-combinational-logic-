@@ -18,9 +18,6 @@ F2=xy’z+x’y’z+w’xy+wx’y+wxy
 
 ## Theory
  A combinational circuit is a circuit in which the output depends on the present combination of inputs. Combinational circuits are made up of logic gates. The output of each logic gate is determined by its logic function. Combinational circuits can be made using various logic gates, such as AND gates, OR gates, and NOT gates.
-## Logic Diagram
-![285508978-117e5d3b-33bb-4f4b-b712-1f1b7d0e0a64](https://github.com/samreen-sk/Experiment--02-Implementation-of-combinational-logic-/assets/149347632/82fa78dd-76db-4f6e-9080-e974868331a5)
-
 ## Procedure
 1.reate a New Project: Open Quartus and create a new project by selecting "File" > "New Project Wizard." Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA).
 
